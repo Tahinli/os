@@ -5,11 +5,11 @@ edition = "2024"
 
 [[bin]]
 name = "os"
-test = false
+test = true
 bench = false
 
 [profile.dev]
-panic = "abort"
+#panic = "abort"
 
 [profile.release]
 panic = "abort"
